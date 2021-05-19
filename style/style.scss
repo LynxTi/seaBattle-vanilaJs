@@ -1,0 +1,55 @@
+.wrapper {
+    margin: 50px;
+
+    .fieldWrap {
+        display: flex;
+        flex-wrap: wrap;
+        width: 460px;
+
+        .lettersWrap {
+            // width: 100%;
+            display: flex;
+            margin-left: 40px;
+            
+            .letter {
+                width: 42px;
+                height: 42px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .namberWrap {
+            display: flex;
+            flex-wrap: wrap;
+            width: 40px;
+
+            .number {
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .field {
+
+            .rowField {
+                display: flex;
+
+                .tile {
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid rgb(111, 0, 255);
+                }
+
+                .ship {
+                    background-color: rgb(111, 0, 255);
+                }
+            }
+        }
+
+    }
+}
